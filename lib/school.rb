@@ -10,6 +10,7 @@ def initialize(roster)
 end
 
 def add_student(student, grade)
+#mutiple values for key
 roster[grade] = []
 roster[grade] << student
 end
