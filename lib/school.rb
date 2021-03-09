@@ -23,7 +23,9 @@ end
 def sort
 sorted = {}
 roster.each do |grade, students|
-      sorted[grade] = students.sort
-    end
-    return sorted
+sorted[grade] = students.sort
+end
+return sorted
+end
+
 end
