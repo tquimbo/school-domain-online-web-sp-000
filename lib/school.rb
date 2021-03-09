@@ -25,5 +25,5 @@ sorted = {}
 roster.each do |grade, students|
       sorted[grade] = students.sort
     end
-    return sort
+    return sorted
 end
