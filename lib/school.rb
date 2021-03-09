@@ -20,4 +20,7 @@ def grade(grade)
 return roster[grade]
 end
 
+def sort
+sorted = {}
+end
 end
