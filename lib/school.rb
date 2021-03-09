@@ -10,9 +10,10 @@ def initialize(roster)
 end
 
 def add_student(student, grade)
-#mutiple values for key
-roster[grade] = []
+#insert additonal values for key into an array
+roster[grade] ||= []
 roster[grade] << student
+
 end
 
 
