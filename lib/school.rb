@@ -16,7 +16,7 @@ roster[grade] << student
 
 end
 
-def grade(grade)
+def grade(student)
 return roster[grade]
 end
 
